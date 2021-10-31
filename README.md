@@ -28,6 +28,17 @@ The primary purpose of this exercise is to extract the information stored in ele
 
 ## Election-Audit Summary
 
-This script is capable of generating voting specifics of any election which includes at least one candidate and county. Any supplied data that lists each row as an individual vote, with candidate selection and county of origin formatted the same as election_results.csv, will function properly. The final data may be more unweildy when taking into account the many possible candidates included on a write-in ballot. 
+This script is capable of generating voting specifics of any election which includes at least one candidate and county. Any supplied data that lists each row as an individual vote, with candidate selection and county of origin formatted the same as election_results.csv, will function properly without modification. The final data may be more unweildy when taking into account the many possible candidates included on a write-in ballot. 
 
-This script can be modified to accomodate a variety of different elections. For example, a local election would have no need to track county data, and can remove or comment out any code referring to such. It can also handle a greater scale, such as an national election, with minimal changes. All that's required is to supply a state's name in place of a county, and replace "County Votes"/"Largest County Turnout" with "State Votes"/"Largest State Turnout".
+This script can be modified to accomodate a variety of different elections as well. For example, a local election would have no need to track county data. Removing or commenting out the code below that "prints" and "writes" county data will suffice, as long as the candidates remain in the same format of the .csv file.
+
+![image](https://user-images.githubusercontent.com/77989740/139599340-686aea0d-85eb-4e50-a2e9-11639b44f7e3.png)
+
+It can also handle a greater scale, such as a national election, with minimal changes. All that's required is to supply a state's name in place of a county, and replace "County Votes"/"Largest County Turnout" with "State Votes"/"Largest State Turnout" in the following code segments.
+
+![image](https://user-images.githubusercontent.com/77989740/139599392-15699ed5-8bac-4d41-b731-885cad3fa2d1.png)
+
+![image](https://user-images.githubusercontent.com/77989740/139599406-866090c7-eb7e-4273-ad2e-25a12966b335.png)
+
+
+
