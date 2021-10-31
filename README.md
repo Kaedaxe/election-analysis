@@ -30,7 +30,7 @@ The primary purpose of this exercise is to extract the information stored in ele
 
 This script is capable of generating voting specifics of any election which includes at least one candidate and county. Any supplied data that lists each row as an individual vote, with candidate selection and county of origin formatted the same as election_results.csv, will function properly without modification. The final data may be more unweildy when taking into account the many possible candidates included on a write-in ballot. 
 
-This script can be modified to accomodate a variety of different elections as well. For example, a local election would have no need to track county data. Removing or commenting out the code below that "prints" and "writes" county data will suffice, as long as the candidates remain in the same format of the .csv file.
+This script can be modified to accomodate a variety of different elections as well. For example, a local election would have no need to track county data. Removing or commenting out the code below that "prints" and "writes" county data will suffice, as long as the candidates remain in the same format of the .csv file and the reference to "County Votes" is removed.
 
 ![image](https://user-images.githubusercontent.com/77989740/139599340-686aea0d-85eb-4e50-a2e9-11639b44f7e3.png)
 
